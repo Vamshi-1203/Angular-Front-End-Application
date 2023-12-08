@@ -1,0 +1,9 @@
+<div class="header-container">
+    <div class="logo" (click)="goToHome()">Natural Nanas</div>
+    <div class="user-info">
+        <div class="username" *ngIf="loggedInUser">this.loggedInUser = this.userService.getLoggedInUsername()</div>
+        <div class="user" style="color: antiquewhite; padding-right: 10px;">Team10</div>
+        <div class="vertical-line" style="color: antiquewhite;">|</div>
+        <div class="logout" (click)="logout()" style="color: antiquewhite; padding-left: 10px;">Logout</div>
+    </div>
+</div>

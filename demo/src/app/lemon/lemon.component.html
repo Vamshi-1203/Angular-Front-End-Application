@@ -1,0 +1,33 @@
+<app-header></app-header>
+<br><br><br>
+<div class="single-pro-image">
+    <img class="img" src="assets\images\lemon.jpg" width="400px" height="400px" id="MainImg" alt="">
+        </div>
+        <div class="single-pro-details">
+            <h6>Home/Shop/Lemon</h6>
+            <br>
+            <h4>Lemon</h4>
+            <br>
+            <br>
+            <h2>₹10 per 5 pieces</h2>
+            <select [(ngModel)]="selectedQuantity">
+              <option>Select Quantity</option>
+              <option>1(5 pieces)</option>
+              <option>2(10 pieces)</option>
+              <option>3(15 pieces)</option>
+              <option>4(20 pieces)</option>
+              <option>5(25 pieces)</option>
+              <option>6(30 pieces)</option>
+            </select>
+            <br>
+            <div class="norm">
+                <div class="normal">
+                    <button class="normal" style="color: black;" (click)="displayAlert('Added to Cart')">Add to Cart</button>
+                  </div>
+                  <div class="nor">
+                    <button class="nor" style="color: black;" (click)="displayAlert('Placing order')">Buy Now</button>
+                  </div>
+            </div>
+        </div>
+    
+<router-outlet></router-outlet>

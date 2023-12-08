@@ -1,0 +1,93 @@
+<app-header></app-header>
+<div class="dotsimg">
+    <br>
+    <h2 class="anime">Farm fresh Vegetables at your front porch</h2><br>
+    <p class="anime"> Gone are the days of settling for wilted greens or spending hours in crowded
+        supermarkets.<br> Natural Nanas is
+        here to bring the farm to your doorstep, ensuring that your kitchen is always<br> stocked with the
+        finest,
+        nutrient-packed vegetables.</p>
+</div><br>
+
+<section>
+    <h2 id="h22" style="padding-top:10px">Features</h2><br>
+
+    <section id="features" class="section1">
+        <section id="pics">
+            <div class="container">
+                <div class="carousel">
+                    <div class="slider">
+                        <div><img src="assets\images\fd.jpg" height="200px" width="200px"><br></div>
+                        <div><img src="assets\images\nat.jpg" height="200px" width="200px"><br></div>
+                        <div><img src="assets\images\orga.png" height="200px" width="200px"> <br></div>
+                        <div><img src="assets\images\clean.png" height="200px" width="200px"> <br></div>
+                        <div><img src="assets\images\handpick.png" height="200px" width="200px"> <br></div>
+                    </div>
+                </div>
+                <br>
+
+                <h2 id="h2">Our Basket</h2>
+                <p id="v1">Vegetable Paradise: Explore Our Basket of Greens</p><br>
+
+                <div class="container_product">
+                    <div class="product_card">
+                        <img src="assets\images\tomato.jpg" alt="" class="card-img">
+                        <br>
+                        <h2 class="name">Tomato</h2>
+                        <br>
+                        <p class="description">1kg- ₹30</p>
+                        <button class="buttoncar" (click)="tomato()">View More</button>
+                    </div>
+                    <div class="product_card">
+                        <img src="assets\images\potato.jpg" alt="" class="card-img">
+                        <br>
+                        <h2 class="name">Potato</h2>
+                        <br>
+                        <p class="description">1kg- ₹45</p>
+                        <button class="buttoncar" (click)="potato()">View More </button>
+                    </div>
+                    <div class="product_card">
+                        <img src="assets\images\onion.jpg" alt="" class="card-img">
+                        <br>
+                        <h2 class="name">Onion</h2>
+                        <br>
+                        <p class="description">1kg- ₹25 </p>
+                        <button class="buttoncar" (click)="onion()">View More </button>
+                    </div>
+                    <div class="product_card">
+                        <img src="assets\images\lemon.jpg" alt="" class="card-img">
+                        <br>
+                        <h2 class="name">Lemon</h2>
+                        <br>
+                        <p class="description">₹10 per 5 piece</p>
+                        <button class="buttoncar" (click)="lemon()">View More </button>
+                    </div>
+                    <div class="product_card">
+                        <img src="assets\images\okra.jpg" alt="" class="card-img">
+                        <br>
+                        <h2 class="name">Okra</h2>
+                        <br>
+                        <p class="description">1kg- ₹45 </p>
+                        <div class="ok">
+                            <button class="buttoncar" (click)="okra()">View More </button>
+                        </div>
+                    </div>
+                </div>
+<br>
+<br>
+                <section id="news">
+                    <div class="box">
+                        <h2 id="h2">Subscribe to our Newsletter</h2>
+                        <p id="hhh">Our weekly newsletter provides you with the latest and most important happenings in
+                            the
+                            industry.</p>
+                        <div class="form-control">
+                            <div class="fo">
+                                <input type="email" id="email" class="input" placeholder="Enter e-mail adress" required/>
+                            </div>
+                            <div class="bb">
+                                <button id="shopnow" class="btn" (click)="displayAlert('Successful Subscribed')">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>

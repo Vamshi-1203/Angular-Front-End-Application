@@ -1,0 +1,24 @@
+<div class="login-container">
+    <img class="veg" src="assets/images/banner.png">
+    <div class="logo">Natural Nanas</div>
+    <div class="desc">Gone are the days of settling for wilted greens <br> or spending hours in crowded supermarkets.<br>
+        Natural Nanas is here to bring the farm to your<br> doorstep, ensuring that your kitchen is always<br>
+        stocked with the finest, nutrient-packed vegetables.</div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error">{{ errorMsg }}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+            <button class="btn btn-dark" (click)="sign()">Sign Up</button>
+            
+        </div>
+        
+    </div>
+</div> 

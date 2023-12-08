@@ -1,0 +1,88 @@
+/* Style for the container of the product image */
+.single-pro-image {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style for the product image */
+.single-pro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the product details */
+.single-pro-details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Style for the h6 element (breadcrumb) */
+.single-pro-details h6 {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+/* Style for the h4 element (product title) */
+.single-pro-details h4 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+/* Style for the h2 element (product price) */
+.single-pro-details h2 {
+    font-size: 28px;
+    color: #ff6600;
+    margin: 0;
+}
+
+.img{
+    padding-left: 20px;
+}
+
+/* Style for the select element (quantity selection) */
+.single-pro-details select {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/* Style for the button elements (Add to Cart and Buy Now) */
+.single-pro-details button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Style for the normal button class */
+.single-pro-details button.normal {
+    background-color: grey;
+    padding-left: 10px;
+}
+
+.single-pro-details button.nor {
+    background-color: grey;
+}
+
+.norm {
+    display: flex;
+    gap: 10px;
+}
+
+/* Style for button hover effect */
+.single-pro-details button:hover {
+    background-color: #ff9900;
+}

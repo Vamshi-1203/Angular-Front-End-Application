@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Tomato",
+        "Price": "₹25",
+        "review": "Good taste",
+        "rating": "4",
+        "cover":"..asset/images/tomato.jpg"
+    },
+    {
+        "name": "Potato",
+        "Price": "₹30",
+        "review":"Good size",
+        "rating": "3.34"
+    }
+    
+]
